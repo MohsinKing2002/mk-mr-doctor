@@ -41,7 +41,7 @@ body{
 
 /************************************  Contact Section ************************************/
 textarea{
-    height: 25vh !important;
+    height: 20vh !important;
 }
 /************************************  Home Section ************************************/
 
@@ -54,6 +54,10 @@ textarea{
     .home{
         padding: 20px 10px;
     }
+    .offcanvas-end{
+        width: 300px !important;
+    }
+
     .about,
     .services,
     .contact {
