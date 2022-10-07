@@ -1,0 +1,63 @@
+/************************************  css reset ************************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 98vh;
+    background-color: #cfebeac4 !important;
+}
+
+.title{
+    color: indigo;
+    margin: 2rem 0;
+}
+
+/************************************  Navigation bar ************************************/
+
+
+/************************************  Home Section ************************************/
+.home{
+    margin-top: 5rem !important;
+    padding: 3rem 10px;
+}
+
+.doctor-img{
+    height: 30vh;
+    border-radius: 50%;
+}
+
+/************************************  About Section ************************************/
+.about, .services, .contact{
+    width: 38%;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+/************************************  Contact Section ************************************/
+textarea{
+    height: 25vh !important;
+}
+/************************************  Home Section ************************************/
+
+
+/************************************ Code for Responsiveness ************************************/
+@media screen and (max-width: 780px){
+    .flex{
+        flex-direction: column;
+    }
+    .home{
+        padding: 20px 10px;
+    }
+    .about,
+    .services,
+    .contact {
+        width: 90%;
+        padding: 10px 8px;
+    }
+}
